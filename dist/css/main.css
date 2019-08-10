@@ -299,6 +299,14 @@ main#home h1 {
 .container .text-secondary {
   font-size: 2rem;
   padding: 10px;
+  margin-bottom: 5vh;
+}
+
+.hobbies .text-secondary {
+  font-size: 3rem;
+  padding: 10px;
+  text-align: center;
+  margin-top: 10vh;
 }
 
 .timeline-item {
@@ -463,4 +471,88 @@ main#home h1 {
   content: "";
   display: table;
   clear: both;
+}
+
+.hb-cont {
+  width: 100%;
+  height: 500px;
+}
+.wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.box {
+  margin: 10px;
+  width: 300px;
+  height: 490px;
+  text-align: center;
+  border-radius: 3px;
+  -webkit-transition: 200ms ease-in-out;
+  -o-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.box:hover {
+  margin-bottom: -10px;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
+.box h1 {
+  color: #fff;
+  padding: 30px;
+  margin-top: 100px;
+  text-align: center;
+  font-weight: 100;
+  font-size: 25px;
+  background: rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+}
+
+.one {
+  background: url("https://source.unsplash.com/r-krWscXjvQ/900x920");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.two {
+  background: url("https://source.unsplash.com/7de474KZIbs/820x900");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.three {
+  background: url("https://source.unsplash.com/27LH_0jXKYI");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.four {
+  background: url("https://source.unsplash.com/8TJbrQGKFyU");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.five {
+  background: url("https://source.unsplash.com/GikVY_KS9vQ");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
